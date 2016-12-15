@@ -1,5 +1,10 @@
 $(function() {
 
-  // your code will go here
+  $.ajax({
+    url: 'https://www.codeschool.com/users/ementrek.json',
+    dataType: 'jsonp',
+    success: function(response) {
 
+    }
+  })
 });
